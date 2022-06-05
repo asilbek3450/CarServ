@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_10sdp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/gordita_regular"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20ssp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:fontFamily="@font/gordita_regular"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:text="@string/you_can_change_it_later"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15ssp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name_et"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gordita_regular"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:boxStrokeColor="@color/white"
+        app:errorEnabled="true"
+        app:errorTextColor="#FF0000">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_edit_text_hint"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/gordita_regular"
+            android:layout_height="wrap_content"
+            android:text="@string/chose_language"
+            android:textSize="@dimen/_15ssp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:fontFamily="@font/gordita_regular"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="match_parent"
+        android:text="Ok" />
+
+</LinearLayout>

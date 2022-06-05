@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.registration.EnterPhoneNumberFragment">
+
+    <ImageView
+        android:id="@+id/back_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_two_lines"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/back_button"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/circle_background"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/back_button" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/verify_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:fontFamily="@font/gordita_regular"
+        android:text="@string/enter_phone_number_register"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_35ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <TextView
+        android:id="@+id/please"
+        android:layout_width="0dp"
+        app:layout_goneMarginTop="@dimen/_10sdp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gordita_regular"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="@string/enter_phone_number_enter_phone_number_text"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintLeft_toLeftOf="@id/verify_text"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/verify_text" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/phone_board"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:background="@drawable/edit_text_background"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/please">
+
+        <TextView
+            android:id="@+id/country_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:fontFamily="@font/gordita_regular"
+            android:hint="TUIT"
+            android:text="+998"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/vertical_line"
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:background="@color/black"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintLeft_toRightOf="@id/country_code"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/n1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gordita_regular"
+            android:hint="0"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintLeft_toLeftOf="@id/vertical_line"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/n2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:fontFamily="@font/gordita_regular"
+            android:hint="0"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintLeft_toRightOf="@id/n1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/n3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:fontFamily="@font/gordita_regular"
+            android:hint="0"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintLeft_toRightOf="@id/n2"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/n4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:fontFamily="@font/gordita_regular"
+            android:hint="0"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintLeft_toRightOf="@id/n3"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/n5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:fontFamily="@font/gordita_regular"
+            android:hint="0"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintLeft_toRightOf="@id/n4"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/n6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:fontFamily="@font/gordita_regular"
+            android:hint="0"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintLeft_toRightOf="@id/n5"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/n7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:fontFamily="@font/gordita_regular"
+            android:hint="0"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintLeft_toRightOf="@id/n6"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/n8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:fontFamily="@font/gordita_regular"
+            android:hint="0"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintLeft_toRightOf="@id/n7"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/n9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:fontFamily="@font/gordita_regular"
+            android:hint="0"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintLeft_toRightOf="@id/n8"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/next_button"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/disabled_circle"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/keyboard"
+        app:layout_constraintRight_toRightOf="@id/phone_board"
+        app:layout_constraintTop_toBottomOf="@id/phone_board">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/ic_baseline_arrow_forward_24" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_180sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:background="@drawable/keyboard_background"
+        android:backgroundTint="@color/white"
+        android:id="@+id/keyboard"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/phone_board"
+        app:layout_constraintRight_toRightOf="@id/phone_board">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/one"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/keyboard_background"
+            android:fontFamily="@font/gordita_regular"
+            android:text="1"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/two"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/keyboard_background"
+            android:fontFamily="@font/gordita_regular"
+            android:text="2"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintLeft_toRightOf="@id/one"
+            app:layout_constraintRight_toLeftOf="@id/three"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/three"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/keyboard_background"
+            android:fontFamily="@font/gordita_regular"
+            android:text="3"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/four"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/keyboard_background"
+            android:fontFamily="@font/gordita_regular"
+            android:text="4"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintBottom_toTopOf="@id/seven"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/one" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/five"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/keyboard_background"
+            android:fontFamily="@font/gordita_regular"
+            android:text="5"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintBottom_toTopOf="@id/eight"
+            app:layout_constraintLeft_toRightOf="@id/four"
+            app:layout_constraintRight_toLeftOf="@id/six"
+            app:layout_constraintTop_toBottomOf="@id/two" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/six"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/keyboard_background"
+            android:fontFamily="@font/gordita_regular"
+            android:text="6"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintBottom_toTopOf="@id/nine"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/three" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/seven"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/keyboard_background"
+            android:fontFamily="@font/gordita_regular"
+            android:text="7"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintBottom_toTopOf="@id/empty"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/four" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/eight"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/keyboard_background"
+            android:fontFamily="@font/gordita_regular"
+            android:text="8"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintBottom_toTopOf="@id/zero"
+            app:layout_constraintLeft_toRightOf="@id/seven"
+            app:layout_constraintRight_toLeftOf="@id/nine"
+            app:layout_constraintTop_toBottomOf="@id/five" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nine"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/keyboard_background"
+            android:fontFamily="@font/gordita_regular"
+            android:text="9"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintBottom_toTopOf="@id/backspace"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/six" />
+
+        <LinearLayout
+            android:id="@+id/empty"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/white"
+            android:elevation="0dp"
+            android:fontFamily="@font/gordita_regular"
+            android:orientation="horizontal"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/seven" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/zero"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/keyboard_background"
+            android:fontFamily="@font/gordita_regular"
+            android:text="0"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/four"
+            app:layout_constraintRight_toLeftOf="@id/six"
+            app:layout_constraintTop_toBottomOf="@id/eight" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/backspace"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/keyboard_background"
+            android:fontFamily="@font/gordita_regular"
+            android:text="⌫"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nine" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

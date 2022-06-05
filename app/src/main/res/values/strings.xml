@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CarsServ</string>
+
+    <!--    My strings-->
+    <string name="start_using">Ilovani ishlatish</string>
+    <!--    Registration-->
+    <string name="enter_phone_number_register"><b>Register</b></string>
+    <string name="enter_phone_number_enter_phone_number_text">Please enter your phone number for registration</string>
+    <string name="verify_phone"><b>Verify phone</b></string>
+    <string name="we_sent_code">We sent code to +</string>
+    <!--        for Name dialog-->
+    <string name="enter_your_name">Iltimos ismingizni kiriting</string>
+    <string name="you_can_change_it_later">Siz bu malumotni keyin o\'zgartirishingiz ham mumkin</string>
+    <string name="name_edit_text_hint">Ism</string>
+    <string name="chose_language">Tilni tanlang</string>
+
+    <!--        bottom navigation titles-->
+    <string name="main">Asosiy</string>
+    <string name="category">Kategoriya</string>
+    <string name="profile">Profil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+
+    <color name="purple_700">#0795F6</color>
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--    My colors-->
+    <color name="edit_text_background">#92A1FE</color>
+
+    <color name="text">#0795F6</color>
+    <color name="disabled_button">#E0F1FB</color>
+    <color name="enabled_button">#C2E6FE</color>
+
+    <color name="all_color">#85B5F1</color>
+    <color name="service_color">#E8430F</color>
+    <color name="car_wash_color">#E1CB0E</color>
+    <color name="refueling_color">#AC11C6</color>
+
+    <!--<color name="main">#8C52FF</color>
+    <color name="enabled_button">#8C52FF</color>
+    <color name="view_pager_indicator">#8C52FF</color>
+    <color name="disabled_button">#3C5DCF</color>
+    <color name="back_button">#92A1FE</color>
+    <color name="hint_color">#92A1FE</color>-->
+
+
+
+</resources>

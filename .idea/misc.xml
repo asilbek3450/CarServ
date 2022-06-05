@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable-v24/disabled_button_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable-v24/verification_code_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/app_logo.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/back_button.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/backspace.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/backspace_button_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/car_wash.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/circle_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/continue_button_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/dialog_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/disabled_button_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/disabled_circle.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/edit_text_background.xml" value="0.206" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/enabled_button_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/enabled_circle.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_back_button.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.206" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_baseline_laptop_24.xml" value="0.206" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_baseline_mark_email_read_24.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_car_placeholder_svgrepo_com.xml" value="0.206" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_carserv.xml" value="0.206" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_carserv_logo.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_error.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_gradient1.xml" value="0.2175" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_gradient2.xml" value="0.2175" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_gradient5.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_launcher_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_liked.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_live_wave_background.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_main_two_lines.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_saved_bottom.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_splash_screen_img.xml" value="0.206" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_three_line.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_two_lines.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_unliked.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_user.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/ic_uzbekistan.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/info_background.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/info_item_background.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/keyboard_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/order_button_background.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/petrol.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/phone_number_left_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/phone_number_right_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/registration_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/repair.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/drawable/verification_code_background.xml" value="0.193" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/activity_home_page.xml" value="0.264" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/auto_service_item.xml" value="0.25" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/car_wash_info_dialog.xml" value="0.2359375" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/fragment_car_wash_info.xml" value="0.2359375" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/fragment_category.xml" value="0.221875" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/fragment_enter_phone_number.xml" value="0.264" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/fragment_enter_verification_code.xml" value="0.264" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/fragment_intro.xml" value="0.264" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/fragment_intro_tab_item.xml" value="0.25" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/fragment_petrol_info.xml" value="0.2359375" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/fragment_profile.xml" value="0.2359375" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/fragment_service_info.xml" value="0.25" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/item_auto_service.xml" value="0.25" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/item_car_wash.xml" value="0.25" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/item_car_wash_info.xml" value="0.2359375" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/item_category.xml" value="0.264" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/item_petrol.xml" value="0.2359375" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/item_petrol_info.xml" value="0.2359375" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/item_service_info.xml" value="0.25" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/item_suggested.xml" value="0.2359375" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/layout/name_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/menu/tabs.xml" value="0.25" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1985" />
+        <entry key="..\:/Users/jasur/AndroidStudioProjects/AutoService/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1985" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

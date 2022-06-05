@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/introFragment">
+
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.example.autoservice.fragments.intro.IntroFragment"
+        android:label="fragment_intro"
+        tools:layout="@layout/fragment_intro" />
+    <fragment
+        android:id="@+id/enterPhoneNumberFragment"
+        android:name="com.example.autoservice.fragments.registration.EnterPhoneNumberFragment"
+        android:label="fragment_enter_phone_number"
+        tools:layout="@layout/fragment_enter_phone_number" />
+    <fragment
+        android:id="@+id/enterVerificationCodeFragment"
+        android:name="com.example.autoservice.fragments.registration.EnterVerificationCodeFragment"
+        android:label="fragment_enter_verification_code"
+        tools:layout="@layout/fragment_enter_verification_code" />
+</navigation>
